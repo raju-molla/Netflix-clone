@@ -1,6 +1,78 @@
-.listItem{
-    width: 225px;
-    height: 120px;
-    background-color: white;
-    margin-right: 5px;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  width: 225px;
+  height: 120px;
+  background-color: #0b0b0b;
+  margin-right: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+}
+.listItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.listItem:hover {
+  width: 325px;
+  height: 300px;
+  position: absolute;
+  top: -150px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+  border-radius: 5px;
+}
+.listItem:hover img {
+  height: 140px;
+}
+
+video{
+  height: 140px;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+ 
+}
+.listItem:hover .itemInfo{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.listItem:hover .itemIcons{
+  display: flex;
+  margin-bottom: 10px;
+}
+.listItem:hover .icon{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.listItem:hover .itemInfoTop{
+  display:flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 10px;
+}
+.listItem:hover .itemInfoTop .limit{
+  border: 1px solid gray;
+  padding: 1px 3px;
+  margin: 0px 10px;
+}
+.listItem:hover .itemdesc{
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.listItem:hover .genre{
+  color: lightgray;
+  font-size: 14px;
 }

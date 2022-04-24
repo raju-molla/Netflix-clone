@@ -1,0 +1,82 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+  position: relative;
+  background-size: cover;
+}
+.top .wrapper {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 40px;
+}
+.loginContainer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.conteinerWrapper{
+  background-color: black;
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 25px  20px;
+  border-radius: 5px;
+}
+.loginInput{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  
+}
+.logInput{
+  height: 45px;
+  padding-left: 10px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+}
+.logInput::placeholder{
+  color: rgb(207, 201, 201);
+  font-weight: 500;
+}
+.Button{
+  height: 25px;
+  background-color: red;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.conteinerWrapper span{
+  margin: 5px 0;
+}
+.learnMore{
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+

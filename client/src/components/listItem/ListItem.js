@@ -19,7 +19,7 @@ const ListItem = ({index}) => {
       />
       {isHovered && (
         <>
-        <video src={trailer} autoPlay={true} loop />
+        <video className='videos' src={trailer} autoPlay={true} loop />
           <div className="itemInfo">
             <div className="itemIcons">
               <PlayArrow className="icon" />

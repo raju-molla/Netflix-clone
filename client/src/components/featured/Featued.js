@@ -43,11 +43,11 @@ const Featued = ({type}) => {
           temporibus eum earum?
         </span>
         <div className="buttons">
-          <button className="play">
+          <button className="play buttons">
             <PlayArrow />
             <span>Play</span>
           </button>
-          <button className="more">
+          <button className="more buttons">
             <InfoOutlined />
             <span>Info</span>
           </button>
